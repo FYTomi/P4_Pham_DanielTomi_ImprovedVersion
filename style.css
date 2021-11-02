@@ -753,7 +753,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(165, 147, 99, 1);
     padding: 40px 40px 40px 40px;
 }
 
@@ -771,11 +771,12 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #b25f38;
 }
 
 .tc-white {
     color: #F3976C!important;
+    font-weight: bold;
 }
 
 .btn-atomic-tangerine {
@@ -1045,4 +1046,9 @@ q {
     font-style: italic;
     color: black;
     font-size: 2rem;
+}
+
+.keywords {
+    font-weight: bold;
+    color: white;
 }
