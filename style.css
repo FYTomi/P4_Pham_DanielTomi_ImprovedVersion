@@ -635,7 +635,7 @@ a[data-lightbox]:hover img {
 
 .snapshot-lb .lightbox-caption {
     padding: 0;
-    color: rgba(0, 0, 0, .5);
+    color: rgba(0, 0, 0, 1);
     background: none;
 }
 
@@ -645,13 +645,11 @@ h3,
 h4,
 h5,
 h6,
-p,
-label,
 .btn,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #FFFF;
 }
 
 .container {
@@ -678,6 +676,7 @@ a {
 
 p {
     font-size: 1.7rem;
+    color: black;
 }
 
 .tight-width-whitespace {
@@ -702,6 +701,9 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
 }
 
 h2 {
@@ -874,8 +876,7 @@ h4 {
         position: relative;
     }
     .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        padding: 0 20px;
     }
     .bloc-group,
     .bloc-group .bloc {
@@ -885,8 +886,6 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
     }
 }
 
@@ -1050,5 +1049,14 @@ q {
 
 .keywords {
     font-weight: bold;
+    color: white;
+}
+
+.footer-sections {
+    display: flex;
+    justify-content:space-around;
+}
+    .rubrique {
+font-weight: bold;
     color: white;
 }
